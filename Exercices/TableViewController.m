@@ -61,8 +61,14 @@
  -----------------*/
 
 -(void)pushDetailViewController:(NSString*)rowValue {
-    DetailViewController *detailViewController = [self.storyboard instantiateViewControllerWithIdentifier:@"DetailViewController"];
-    [self.navigationController pushViewController:detailViewController animated:YES];
+    self.rowValue = rowValue;
+    [self performSegueWithIdentifier:@"DetailViewControllerSegue" sender:self];
+}
+
+- (void)prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender {
+    DetailViewController *detailViewController = (DetailViewController *)segue.destinationViewController;
+    detailViewController.stringDetail = self.rowValue;
+    detailViewController.returnDelegate = self.delegate;
 }
 
 

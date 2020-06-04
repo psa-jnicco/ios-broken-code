@@ -14,6 +14,7 @@
 
 @interface TableViewController : UITableViewController
 
+@property (nonatomic) NSString *rowValue;
 @property (nonatomic, weak) id <ReturnDelegate> delegate;
 
 @end

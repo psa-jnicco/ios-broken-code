@@ -37,7 +37,7 @@
                                 <fontDescription key="fontDescription" type="system" pointSize="21"/>
                                 <state key="normal" title="Go To TableView"/>
                                 <connections>
-                                    <segue destination="VL1-kp-CUe" kind="show" id="azK-Sb-sKL"/>
+                                    <segue destination="VL1-kp-CUe" kind="show" identifier="TableViewControllerSegue" id="azK-Sb-sKL"/>
                                 </connections>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Result" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="YLD-Sh-Q4D">
@@ -98,6 +98,9 @@
                             <outlet property="delegate" destination="VL1-kp-CUe" id="mF2-BO-TZb"/>
                         </connections>
                     </tableView>
+                    <connections>
+                        <segue destination="NMF-7d-Rr2" kind="show" identifier="DetailViewControllerSegue" id="9wH-gG-esd"/>
+                    </connections>
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="f76-sk-cEs" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
@@ -142,6 +145,7 @@
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="n7b-d3-zS3"/>
                     </view>
+                    <navigationItem key="navigationItem" id="cxT-ff-F35"/>
                     <connections>
                         <outlet property="label" destination="qE4-95-WQK" id="GsX-On-Bv0"/>
                     </connections>

@@ -11,7 +11,8 @@ import UIKit
 
 class DetailViewController: UIViewController {
 
-    var stringDetail = ""
+    @objc var stringDetail = ""
+    @objc weak var returnDelegate: ReturnDelegate?
     
     @IBOutlet weak var label: UILabel!
     
@@ -19,6 +20,10 @@ class DetailViewController: UIViewController {
         super.viewDidLoad()
     }
     
+    override func viewWillAppear(_ animated: Bool) {
+        super.viewWillAppear(animated)
+        label.text = "Result detail : \(stringDetail)"
+    }
 
     /* ---------------
      
@@ -26,6 +31,7 @@ class DetailViewController: UIViewController {
      
      -----------------*/
     @IBAction func finishAction(_ sender: UIButton) {
+        returnDelegate?.returnValue(Int(stringDetail) ?? 0)
         self.navigationController?.popToRootViewController(animated: true)
     }
     
