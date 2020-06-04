@@ -26,6 +26,7 @@ class DetailViewController: UIViewController {
      
      -----------------*/
     @IBAction func finishAction(_ sender: UIButton) {
+        self.navigationController?.popToRootViewController(animated: true)
     }
     
 }
