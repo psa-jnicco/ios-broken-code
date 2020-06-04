@@ -22,11 +22,11 @@
 #pragma mark - Table view data source
 
 - (NSInteger)numberOfSectionsInTableView:(UITableView *)tableView {
-    return 0;
+    return 1;
 }
 
 - (NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section {
-    return 0;
+    return 10;
 }
 
 
@@ -57,10 +57,12 @@
 /* ---------------
  
     Launch DetailViewController programmaticaly here
- 
+    
  -----------------*/
 
 -(void)pushDetailViewController:(NSString*)rowValue {
+    DetailViewController *detailViewController = [self.storyboard instantiateViewControllerWithIdentifier:@"DetailViewController"];
+    [self.navigationController pushViewController:detailViewController animated:YES];
 }
 
 

@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		92EA9F092488ED6A009BC4D7 /* TableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 92EA9F082488ED6A009BC4D7 /* TableViewController.m */; };
 		B55B4DB1242BA84F001A477C /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B55B4DB0242BA84F001A477C /* DetailViewController.swift */; };
 		B5CF95322302A66100EE8CD8 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = B5CF95312302A66100EE8CD8 /* AppDelegate.m */; };
 		B5CF95352302A66100EE8CD8 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B5CF95342302A66100EE8CD8 /* ViewController.m */; };
@@ -17,6 +18,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		92EA9F072488ED6A009BC4D7 /* TableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TableViewController.h; sourceTree = "<group>"; };
+		92EA9F082488ED6A009BC4D7 /* TableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TableViewController.m; sourceTree = "<group>"; };
 		B55B4DAF242BA84F001A477C /* Exercices-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Exercices-Bridging-Header.h"; sourceTree = "<group>"; };
 		B55B4DB0242BA84F001A477C /* DetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
 		B5CF952D2302A66100EE8CD8 /* Exercices.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Exercices.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -29,8 +32,6 @@
 		B5CF953C2302A66200EE8CD8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		B5CF953E2302A66200EE8CD8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		B5CF953F2302A66200EE8CD8 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		B5CF95492302A7FB00EE8CD8 /* TableViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TableViewController.h; sourceTree = "<group>"; };
-		B5CF954A2302A7FB00EE8CD8 /* TableViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TableViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -70,10 +71,10 @@
 				B5CF953B2302A66200EE8CD8 /* LaunchScreen.storyboard */,
 				B5CF953F2302A66200EE8CD8 /* main.m */,
 				B5CF95362302A66100EE8CD8 /* Main.storyboard */,
-				B5CF95492302A7FB00EE8CD8 /* TableViewController.h */,
-				B5CF954A2302A7FB00EE8CD8 /* TableViewController.m */,
 				B5CF95332302A66100EE8CD8 /* ViewController.h */,
 				B5CF95342302A66100EE8CD8 /* ViewController.m */,
+				92EA9F072488ED6A009BC4D7 /* TableViewController.h */,
+				92EA9F082488ED6A009BC4D7 /* TableViewController.m */,
 				B55B4DB0242BA84F001A477C /* DetailViewController.swift */,
 				B55B4DAF242BA84F001A477C /* Exercices-Bridging-Header.h */,
 			);
@@ -154,6 +155,7 @@
 				B5CF95352302A66100EE8CD8 /* ViewController.m in Sources */,
 				B5CF95402302A66200EE8CD8 /* main.m in Sources */,
 				B55B4DB1242BA84F001A477C /* DetailViewController.swift in Sources */,
+				92EA9F092488ED6A009BC4D7 /* TableViewController.m in Sources */,
 				B5CF95322302A66100EE8CD8 /* AppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

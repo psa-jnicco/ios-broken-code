@@ -143,7 +143,7 @@
                         <viewLayoutGuide key="safeArea" id="n7b-d3-zS3"/>
                     </view>
                     <connections>
-                        <outlet property="labelDetail" destination="qE4-95-WQK" id="En9-Fu-VYI"/>
+                        <outlet property="label" destination="qE4-95-WQK" id="GsX-On-Bv0"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Z9n-du-kkL" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
